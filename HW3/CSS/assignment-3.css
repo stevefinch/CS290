@@ -1,0 +1,89 @@
+header {
+    height: 10vw;
+    width: 100vw;
+    background-color: orangered;
+    background-image: url("Three-Sisters1.jpg");
+    background-size: cover;
+
+    text-align: center;
+}
+
+
+a {
+    color: yellow;
+    line-height: 2vw;
+    padding: 20px;
+}
+
+a:hover {
+    color: blue;
+}
+
+h1 {
+    font-family: Arial;
+    color: green;
+    letter-spacing: 6px;
+}
+
+footer {
+    height: 4vw;
+    width: 100vw;
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    line-height: 4vw;
+}
+
+.main_div {
+    width: 85vw;
+    height: 95vw;
+    position: relative;
+    top: -70px;
+    left: 5vw;
+    padding-left: 2vw;
+    box-shadow: 2px 2px grey;
+
+    border-bottom:1px solid green;
+    border-left:1px solid green;
+    border-right:1px solid green;
+}
+
+.big_picture {
+    height: 55%;
+    width: 55%;
+    display: inline-block;
+    margin-right: 40px;
+
+    object-fit:cover;
+    border:4px double green ;
+    border-radius: 24px;
+    box-shadow: 2px 2px grey;    
+}
+
+p {
+   text-indent: 50px;
+   line-height: 35px;
+}
+
+.county_div{
+    position: relative; 
+    height: 217px;
+    width: 280px;
+    display: inline-block;
+    margin: 20px;
+
+    border: none;
+}
+
+.cty_img{
+    position: relative; 
+    height: 217px;
+    width: 280px;
+}
+
+.closeX {
+    position: absolute; 
+    top: -10%; 
+    right: 2%;
+    font-size: 20px; 
+}
