@@ -36,7 +36,7 @@ footer {
 
 .main_div {
     width: 85vw;
-    height: 95vw;
+    overflow: auto;
     position: relative;
     top: -70px;
     left: 5vw;
