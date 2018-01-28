@@ -1,8 +1,8 @@
-/*{ 
+*{ 
     margin: 0px; 
     padding: 0px; 
 } 
- */
+ 
 .nav-menu{ 
     list-style-type: none; 
     width: auto; 
@@ -140,4 +140,25 @@ p {
     top: -10%; 
     right: 2%;
     font-size: 20px; 
+}
+
+#par-1 { /*old p ID */
+    display: inline;
+   text-indent: 50px;
+   line-height: 35px;
+}
+
+textarea{
+    display: none;
+    width: 30%;
+    height: 30%;
+}
+
+button{
+    display: none;
+}
+
+
+.info-list{
+    list-style-image: url('bullet_ball_glass_green.png');
 }
